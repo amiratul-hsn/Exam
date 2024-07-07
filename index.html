@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Website Saya</title>
+    <link rel="shortcut icon" href="img/Screenshot 2024-06-15 150921.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
@@ -20,33 +21,33 @@
     </style>
   </head>
   <!-- NAVBAR -->
-  <nav class="navbar navbar-expand-lg bg-primary">
+  <nav class="navbar navbar-expand-lg fixed-top bg-primary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
+      <a class="navbar-brand" href="#home">portofolio🛸</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#project">Project</a>
+          </li>
+            <a class="nav-link" href="#education">Education</a>
+          </li>
+            <a class="nav-link" href="#contact">Contact</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
+               pages
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+              <li><a class="dropdown-item" href="movie.html">Movie</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
           </li>
         </ul>
         <form class="d-flex" role="search">
@@ -59,13 +60,13 @@
   <body>
     
     <!-- HOME -->
-     <section class="bg-info-subtle">
+     <section class="bg-info-subtle" id="home">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 text-end mt-4">
+                <div class="col-md-6 text-center text-md-end my-4">
                     <h4 class="display-4">Amiratul Hisanah✨ </h4>
                     <h5 class="display-6">l am <span class="text-info">Conten Creator</span>
-                    <button class="btn btn-info">Call me</button>
+                    <button class="btn btn-info mt-4 rounded-5 px-4 mt-3">Call me</button>
                 </div>
                 <div class="col-md-6 text-center">
                     <img 
@@ -80,8 +81,8 @@
 
       <section>
 
-        <!-- LInnk -->
-      <section>
+        <!-- About -->
+      <section  id="about">
         <div class="container">
             <div class="row d-flex justify-content-center">
                 <div class="col-2 text-center text-info">
@@ -105,7 +106,7 @@
         </div>
       </section>
       <!-- drop -->
-      <section class="bg-info-subtle">
+      <section class="bg-info-subtle" id="project">
        <div class="bg-succes-subtle">
         <div class="container px 5">
           <div class="row text-center px-5">
@@ -116,9 +117,9 @@
         <div class="row">
           <div class="col-4">
             <div class="card" style="width: 18rem;">
-              <img src="img/Screenshot 2024-06-02 090639.png" class="card-img-top" alt="...">
+              <img src="img/Screenshot 2024-06-16 084220.png" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Biodata🧕🏻</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div>
@@ -136,7 +137,7 @@
             <div class="card" style="width: 18rem;">
               <img src="img/Screenshot 2024-06-16 093054.png" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Card title🖼️</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div>
@@ -144,8 +145,8 @@
         </div>
       </section>
 
-      <!-- edukasi -->
-      <section>
+      <!-- education -->
+      <section id="education">
         <div class="container">
           <div class="row">
             <div class="col-md-8">
@@ -239,7 +240,7 @@
       </section>
 
       <!-- contact -->
-       <section class="bg-info-subtle">
+       <section class="bg-info-subtle" id="contact">
     <div class="container mt-5">
       <div class="row">
        <div class="col-lg-6">
@@ -247,7 +248,8 @@
         <h3 class="text-primary">Aplikasi Membuat Web</h3>
        </div>
        <div class="col-lg-3">
-         <a class="contact-link mt-3" href="http://wa.me/+62877328079989" target="_blank">
+         <a class="contact-link mt-3" href="http://wa.me/+62877328079989" 
+         target="_blank">
            <i class="bi bi-whatsapp me-2"></i>
            +6287732807998
          </a> 
